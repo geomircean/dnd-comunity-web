@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { StyledWrap } from './test-wrapper';
+import Wrap from './test-wrapper';
 
 class TestComp extends Component {
   render() {
     return (
-      <StyledWrap> Geo's test </StyledWrap>
+      <Wrap> Geo's test </Wrap>
     );
   }
 }
