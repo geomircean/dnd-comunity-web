@@ -4,6 +4,7 @@ module.exports = {
   output: {
     filename: "bundle.js"
   },
+  mode: 'development',
   watch: true,
   module: {
     //preLoaders: [
@@ -14,17 +15,19 @@ module.exports = {
     //
     //  }
     //],
-    loaders: [
+    rules: [
       {
         test: [/\.es6$/, /\.js$/],
         exclude: /node_modules/,
         loader: 'babel-loader',
+        type: 'javascript/auto',
         query: {
           presets: ['react', 'es2015']
         }
       },
       {
         test: /\.css$/,
+        //type: 'css//auto',
         use: ['css-loader']
       }
     ]

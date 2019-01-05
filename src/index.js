@@ -5,9 +5,11 @@ import App from '../src/js/App';
 //import '../src/css/index.css';
 
 ReactDOM.render(
-  <div />,
+  <div> I'm alive </div>,
   document.getElementById('root')
 );
 
-//document.write('welcome to my d&d app');
-//console.log('app loaded');
+document.write('welcome to my d&d app');
+console.log('app loaded');
+
+export default function () {}

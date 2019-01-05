@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import TestComp from './components/test-component';
+//import TestComp from './components/test-component';
 //import logo from '../svg/logo.svg';
 import '../css/App.css';
 
 class App extends Component {
   render() {
-    const { logo } = this.props;
     return (
       <div className='App'>
         <div className='App-header'>
